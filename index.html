@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wadi Alhuroof Translation Service | Legal Translation in Dubai</title>
+<meta name="description" content="Legal and certified translation, attestation, visa service, power of attorney, memorandum of association and company formation in Al Qusais, Dubai.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --plum:#5c1946;--plum-d:#45103a;--rose:#c4325a;--rose-d:#a82649;--green:#188a55;
+  --blush:#fbf0f5;--blush2:#f6e4ed;--ink:#2a1624;--muted:#6c5864;--line:#ecd9e3;--white:#fff;
+  --r:14px;--shadow:0 8px 30px rgba(92,25,70,.10);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Poppins',system-ui,sans-serif;color:var(--ink);background:#fff;line-height:1.55;font-size:15px}
+html[dir=rtl] body{font-family:'Cairo','Poppins',sans-serif}
+a{color:inherit;text-decoration:none}
+img,svg{display:block}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.ic{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+/* topbar */
+.topbar{font-size:13px;color:var(--muted);border-bottom:1px solid var(--line)}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-top:9px;padding-bottom:9px;flex-wrap:wrap}
+.topbar .l,.topbar .r{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.topbar a,.topbar span{display:inline-flex;gap:6px;align-items:center}
+.topbar .ic{width:14px;height:14px}
+
+/* header */
+header.site{background:var(--plum);color:#fff;position:sticky;top:0;z-index:50}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;height:76px}
+.logo{display:flex;align-items:center;gap:10px}
+.logo .mark{width:40px;height:40px;border-radius:10px;background:#fff;color:var(--plum);display:grid;place-items:center;font-weight:700;font-size:20px;font-family:'Cairo',sans-serif}
+.logo b{display:block;font-size:17px;letter-spacing:.3px;line-height:1.1}
+.logo small{display:block;font-size:9px;letter-spacing:1.4px;text-transform:uppercase;opacity:.8}
+nav.main{display:flex;gap:30px;font-size:14px;font-weight:500}
+nav.main a{opacity:.9;padding:6px 0;border-bottom:2px solid transparent}
+nav.main a:hover{opacity:1;border-color:var(--rose)}
+.hdr-actions{display:flex;gap:12px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:12px 22px;font:600 14px 'Poppins',sans-serif;border:1.5px solid transparent;cursor:pointer;transition:.18s;white-space:nowrap}
+html[dir=rtl] .btn{font-family:'Cairo',sans-serif}
+.btn-rose{background:var(--rose);color:#fff}.btn-rose:hover{background:var(--rose-d)}
+.btn-green{background:var(--green);color:#fff}.btn-green:hover{filter:brightness(.92)}
+.btn-line{background:#fff;color:var(--plum);border-color:var(--plum)}.btn-line:hover{background:var(--blush)}
+.btn-sm{padding:9px 18px;font-size:13px}
+.lang{display:flex;align-items:center;gap:8px;border:1.5px solid rgba(255,255,255,.4);border-radius:999px;padding:4px 4px 4px 14px;color:#fff;background:transparent;cursor:pointer;font:500 13px 'Cairo','Poppins',sans-serif}
+.lang i{font-style:normal;background:#fff;color:var(--plum);border-radius:50%;width:32px;height:32px;display:grid;place-items:center;font-weight:700;font-size:12px}
+.burger{display:none;background:none;border:0;color:#fff;cursor:pointer}
+
+/* hero */
+.hero{background:linear-gradient(180deg,#fff 0%,var(--blush) 100%);padding:56px 0 70px}
+.hero .wrap{display:grid;grid-template-columns:1.25fr .8fr;gap:48px;align-items:center}
+.eyebrow{display:inline-flex;gap:6px;align-items:center;color:var(--plum);font-size:12.5px;font-weight:600;margin-bottom:14px}
+.eyebrow .ic{width:14px;height:14px;color:var(--rose)}
+h1{font-size:clamp(32px,4.6vw,46px);line-height:1.12;color:var(--plum);font-weight:700;letter-spacing:-.5px}
+html[dir=rtl] h1{line-height:1.35;letter-spacing:0}
+.hero p.lead{margin:20px 0 26px;color:var(--muted);max-width:560px;font-size:15.5px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.hrs{display:inline-flex;gap:8px;align-items:center;font-size:13.5px;font-weight:500;color:var(--plum)}
+.how{background:var(--plum);color:#fff;border-radius:var(--r);padding:28px;box-shadow:var(--shadow)}
+.how h3{font-size:17px;margin-bottom:18px}
+.how ol{list-style:none;display:grid;gap:18px}
+.how li{display:grid;grid-template-columns:30px 1fr;gap:14px;font-size:13.5px;opacity:.95}
+.how li em{width:30px;height:30px;border-radius:50%;background:var(--rose);display:grid;place-items:center;font-style:normal;font-weight:600;font-size:13px}
+.how li b{display:block;font-size:14px;margin-bottom:2px}
+.ph{background:#fff7d6;color:#6a5200;border-radius:4px;padding:0 6px;font-size:12px;border:1px dashed #d9b84a;display:inline-block;margin-top:3px}
+
+/* info strip */
+.strip{margin-top:-34px;position:relative;z-index:2}
+.strip .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.strip .card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;display:flex;gap:14px;box-shadow:var(--shadow)}
+.strip .card .ic{color:var(--rose);width:22px;height:22px;margin-top:2px}
+.strip b{display:block;font-size:14px;color:var(--plum)}
+.strip span{font-size:13.5px;color:var(--muted)}
+
+/* sections */
+section{padding:84px 0}
+.tag{color:var(--rose);font-size:12.5px;font-weight:600;letter-spacing:.4px;margin-bottom:6px;display:block}
+h2{font-size:clamp(26px,3.4vw,34px);color:var(--plum);line-height:1.2;letter-spacing:-.3px}
+html[dir=rtl] h2{line-height:1.4;letter-spacing:0}
+.sub{color:var(--muted);margin-top:12px;max-width:620px}
+.tint{background:var(--blush)}
+
+/* services */
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:36px;align-items:start}
+.svc{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px;transition:.2s}
+.svc:hover{box-shadow:var(--shadow);transform:translateY(-2px)}
+.svc .ico{width:44px;height:44px;border-radius:12px;background:var(--plum);color:#fff;display:grid;place-items:center;margin-bottom:16px}
+.svc h3{font-size:15px;color:var(--plum);line-height:1.3;margin-bottom:8px}
+.svc p{font-size:13.5px;color:var(--muted);margin-bottom:16px;min-height:64px}
+.svc button.tog{width:100%;display:flex;justify-content:space-between;align-items:center;background:#fff;border:1.5px solid var(--plum);color:var(--plum);border-radius:999px;padding:9px 16px;font:600 13px 'Poppins',sans-serif;cursor:pointer}
+html[dir=rtl] .svc button.tog{font-family:'Cairo',sans-serif}
+.svc button.tog .ic{width:15px;height:15px;transition:.2s}
+.svc.open button.tog .ic{transform:rotate(180deg)}
+.det{display:none;margin-top:14px;font-size:13px;color:var(--muted);border-top:1px dashed var(--line);padding-top:12px}
+.svc.open .det{display:block}
+.det b{color:var(--plum);display:block;margin:6px 0 2px;font-size:12.5px}
+.det a{color:var(--rose);font-weight:600;display:inline-block;margin-top:10px}
+
+/* contact */
+.contact{display:grid;grid-template-columns:1fr 1.05fr;gap:56px;align-items:start}
+.clist{margin-top:26px}
+.crow{display:flex;gap:14px;align-items:center;padding:11px 0;border-bottom:1px solid var(--line)}
+.crow .b{width:42px;height:42px;border-radius:10px;background:var(--plum);color:#fff;display:grid;place-items:center;flex:none}
+.crow .b.g{background:var(--green)}
+.crow b{display:block;font-size:13.5px;color:var(--plum)}
+.crow span{font-size:13.5px;color:var(--muted)}
+.map{margin-top:22px;border-radius:var(--r);border:1px solid var(--line);overflow:hidden;position:relative;height:250px;background:
+ linear-gradient(115deg,transparent 46%,#fff 46%,#fff 50%,transparent 50%),
+ linear-gradient(20deg,transparent 60%,#fff 60%,#fff 63%,transparent 63%),
+ repeating-linear-gradient(0deg,transparent 0 38px,rgba(196,50,90,.07) 38px 39px),
+ repeating-linear-gradient(90deg,transparent 0 38px,rgba(196,50,90,.07) 38px 39px),var(--blush2)}
+.pin{position:absolute;left:50%;top:26%;transform:translateX(-50%);width:38px;height:38px;border-radius:50%;background:var(--rose);color:#fff;display:grid;place-items:center;box-shadow:0 6px 16px rgba(196,50,90,.4)}
+.mapcard{position:absolute;left:12px;right:12px;bottom:12px;background:#fff;border-radius:10px;padding:12px 14px;font-size:12.5px;box-shadow:var(--shadow)}
+.mapcard b{display:block;color:var(--plum);font-size:13px}
+.mapcard .btn{margin-top:10px}
+.form{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px;box-shadow:var(--shadow)}
+.form h3{color:var(--plum);font-size:19px;margin-bottom:6px}
+.form>p{font-size:13.5px;color:var(--muted);margin-bottom:18px}
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.fld{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:600;color:var(--ink)}
+.fld small{font-weight:400;color:var(--muted)}
+.fld.full{grid-column:1/-1}
+input,select,textarea{font:400 14px 'Poppins',sans-serif;border:1.5px solid var(--plum);border-radius:8px;padding:11px 12px;background:#fff;color:var(--ink);width:100%}
+html[dir=rtl] input,html[dir=rtl] select,html[dir=rtl] textarea{font-family:'Cairo',sans-serif}
+input:focus,select:focus,textarea:focus{outline:3px solid rgba(196,50,90,.25);border-color:var(--rose)}
+textarea{min-height:100px;resize:vertical}
+.consent{grid-column:1/-1;display:flex;gap:10px;align-items:flex-start;background:var(--blush);border-radius:8px;padding:11px 12px;font-size:12.5px;color:var(--muted)}
+.consent input{width:auto;margin-top:3px}
+.note{font-size:12.5px;color:var(--muted);margin-top:12px}
+.ok{display:none;margin-top:14px;background:#e6f5ec;color:#0f5c37;border-radius:8px;padding:12px;font-size:13.5px}
+
+/* faq */
+.faq{max-width:780px;margin-top:32px;display:grid;gap:12px}
+.q{background:#fff;border:1px solid var(--line);border-radius:10px}
+.q button{width:100%;display:flex;justify-content:space-between;gap:14px;align-items:center;background:none;border:0;padding:16px 18px;font:600 14px 'Poppins',sans-serif;color:var(--plum);cursor:pointer;text-align:start}
+html[dir=rtl] .q button{font-family:'Cairo',sans-serif}
+.q button .ic{width:16px;height:16px;transition:.2s}
+.q.open button .ic{transform:rotate(180deg)}
+.q .a{display:none;padding:0 18px 16px;font-size:13.5px;color:var(--muted)}
+.q.open .a{display:block}
+
+/* privacy */
+.pcards{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:30px}
+.pc{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px}
+.pc h3{display:flex;gap:10px;align-items:center;color:var(--plum);font-size:16px;margin-bottom:10px}
+.pc h3 .ic{color:var(--rose)}
+.pc p{font-size:13.5px;color:var(--muted)}
+
+/* footer */
+footer{background:var(--plum-d);color:#e9d6e1;padding-top:60px;font-size:13.5px}
+.fgrid{display:grid;grid-template-columns:1.2fr 1.1fr .8fr 1.2fr;gap:36px}
+footer h4{color:#fff;font-size:15px;margin-bottom:16px}
+footer ul{list-style:none;display:grid;gap:10px}
+footer a:hover{color:#fff;text-decoration:underline}
+footer .logo{margin-bottom:16px}
+footer .logo .mark{background:#fff}
+footer .ci{display:flex;gap:10px;margin-bottom:11px}
+footer .ci .ic{margin-top:3px;width:16px;height:16px;color:#e9a9c0}
+.legal{border-top:1px solid rgba(255,255,255,.12);margin-top:44px;padding:22px 0;font-size:12.5px;display:grid;gap:6px}
+.legal .ph{margin-inline-start:6px}
+
+/* floating */
+.wa{position:fixed;inset-inline-end:20px;bottom:90px;width:56px;height:56px;border-radius:50%;background:var(--green);color:#fff;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.25);z-index:60}
+.wa .ic{width:28px;height:28px}
+.cookie{position:fixed;inset-inline-start:20px;bottom:20px;width:330px;background:#fff;border:1px solid var(--line);border-radius:var(--r);box-shadow:0 12px 40px rgba(42,22,36,.2);padding:18px;z-index:70;font-size:13px}
+.cookie b{display:flex;gap:8px;align-items:center;color:var(--plum);margin-bottom:6px}
+.cookie p{color:var(--muted);margin-bottom:14px}
+.cookie .row{display:flex;gap:10px}
+.cookie .btn{padding:8px 18px;font-size:13px}
+.cookie .btn-dark{background:var(--plum);color:#fff}
+
+/* responsive */
+@media(max-width:1020px){
+  .cards{grid-template-columns:repeat(2,1fr)}
+  .hero .wrap,.contact{grid-template-columns:1fr}
+  .fgrid{grid-template-columns:1fr 1fr}
+  nav.main{display:none}
+  nav.main.show{display:flex;position:absolute;top:76px;inset-inline:0;background:var(--plum);flex-direction:column;padding:16px 24px 24px;gap:14px}
+  .burger{display:block}
+  .hdr-actions .btn-rose{display:none}
+}
+@media(max-width:640px){
+  .wrap{padding:0 18px}
+  .topbar .l a:not(:first-child){display:none}
+  .strip .grid,.pcards,.fg{grid-template-columns:1fr}
+  .cards{grid-template-columns:1fr}
+  .fgrid{grid-template-columns:1fr}
+  .cookie{width:auto;inset-inline-end:20px}
+  .svc p{min-height:0}
+  section{padding:60px 0}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M3 21l1.6-5.1A8.5 8.5 0 1 1 8.1 19.5z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 .8a4 4 0 0 1-2-2l.8-1-1-2z"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-lang" viewBox="0 0 24 24"><path d="M4 5h9M8.5 3v2M6 5c.5 4 3 7 6 8M12 5c-.5 4-3 7-7 9M13 21l4-10 4 10M14.5 18h5"/></symbol>
+  <symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18M6 21h12M5 7h14M5 7l-3 7a3 3 0 0 0 6 0zM19 7l-3 7a3 3 0 0 0 6 0z"/></symbol>
+  <symbol id="i-id" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M6 16c.5-2 5.5-2 6 0M15 10h3M15 14h3"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8zM14 3v5h5M9 13h6M9 17h6"/></symbol>
+  <symbol id="i-bldg" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="1"/><path d="M9 7h2M13 7h2M9 11h2M13 11h2M9 15h2M13 15h2M10 21v-3h4v3"/></symbol>
+  <symbol id="i-brief" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></symbol>
+  <symbol id="i-cap" viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5zM6 11v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol>
+  <symbol id="i-cookie" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9 4 4 0 0 1-4-4 4 4 0 0 1-5-5z"/><path d="M8.5 11h.01M12 15h.01M15.5 13h.01"/></symbol>
+  <symbol id="i-nav" viewBox="0 0 24 24"><path d="m3 11 18-8-8 18-2-8z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+</svg>
+
+<!-- top bar -->
+<div class="topbar">
+  <div class="wrap">
+    <div class="l">
+      <a href="tel:+971527969655"><svg class="ic"><use href="#i-phone"/></svg>052 796 9655</a>
+      <a href="tel:+971586815484"><svg class="ic"><use href="#i-phone"/></svg>058 681 5484</a>
+      <a href="tel:+971586815486"><svg class="ic"><use href="#i-phone"/></svg>058 681 5486</a>
+      <a href="mailto:info@wadialhuroof.com"><svg class="ic"><use href="#i-mail"/></svg>info@wadialhuroof.com</a>
+    </div>
+    <div class="r"><span><svg class="ic"><use href="#i-clock"/></svg><span data-ar="السبت إلى الخميس، ٨ صباحاً – ٨ مساءً">Monday to Saturday, 8 AM to 8 PM</span></span></div>
+  </div>
+</div>
+
+<!-- header -->
+<header class="site">
+  <div class="wrap">
+    <a href="#" class="logo" aria-label="Wadi Alhuroof Translation Services">
+      <span class="mark">و</span>
+      <span><b>WADI ALHUROOF</b><small>Translation Services</small></span>
+    </a>
+    <nav class="main" id="nav">
+      <a href="#top" data-ar="الرئيسية">Home</a>
+      <a href="#services" data-ar="خدماتنا">Services</a>
+      <a href="#faq" data-ar="الأسئلة الشائعة">Questions</a>
+      <a href="#contact" data-ar="اتصل بنا">Contact Us</a>
+    </nav>
+    <div class="hdr-actions">
+      <a class="btn btn-rose btn-sm" href="https://wa.me/971527969655" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg><span data-ar="واتساب">WhatsApp Us</span></a>
+      <button class="lang" id="langBtn" aria-label="Switch language"><span id="langOther">العربية</span><i id="langCur">EN</i></button>
+      <button class="burger" id="burger" aria-label="Menu"><svg class="ic" style="width:26px;height:26px"><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<!-- hero -->
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow"><svg class="ic"><use href="#i-pin"/></svg><span data-ar="القصيص، دبي">Al Qusais, Dubai</span></span>
+      <h1 data-ar="خدمات ترجمة موثوقة في دبي للمستندات القانونية والشخصية وللأعمال.">Trusted Dubai Translation Services for Legal, Personal &amp; Business Documents.</h1>
+      <p class="lead" data-ar="ترجمة قانونية ومعتمدة وتصديق في دبي، إضافة إلى خدمات التأشيرات والوكالات القانونية وعقود التأسيس وتأسيس الشركات.">Expert legal and certified translation and attestation in Dubai, plus visa service, power of attorney, memorandum of association and company formation.</p>
+      <div class="cta">
+        <a class="btn btn-rose" href="tel:+971527969655"><svg class="ic"><use href="#i-phone"/></svg><span data-ar="اتصل بنا الآن">Call Us Now</span></a>
+        <a class="btn btn-green" href="https://wa.me/971527969655" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg><span data-ar="تواصل مع خبير">WhatsApp Expert</span></a>
+        <a class="btn btn-line" href="#contact"><span data-ar="اطلب عرض سعر">Request a quote</span><svg class="ic"><use href="#i-arrow"/></svg></a>
+      </div>
+      <span class="hrs"><svg class="ic"><use href="#i-clock"/></svg><span data-ar="السبت إلى الخميس، ٨ صباحاً – ٨ مساءً">Monday to Saturday, 8 AM to 8 PM</span></span>
+    </div>
+    <aside class="how">
+      <h3 data-ar="كيف نعمل">How it works</h3>
+      <ol>
+        <li><em>1</em><div><b data-ar="أرسل مستندك">Send your document</b><span data-ar="عبر واتساب أو البريد الإلكتروني أو في مكتبنا في القصيص.">On WhatsApp, by email or at our office in Al Qusais.</span></div></li>
+        <li><em>2</em><div><b data-ar="نؤكد التفاصيل">We confirm the details</b><span data-ar="الخدمة واللغات قبل أن نبدأ.">The service and the languages before we start.</span><br><span class="ph">[Your turnaround time]</span></div></li>
+        <li><em>3</em><div><b data-ar="استلم مستندك">Receive your document</b><br><span class="ph">[Your delivery options]</span></div></li>
+      </ol>
+    </aside>
+  </div>
+</div>
+
+<!-- strip -->
+<div class="strip"><div class="wrap"><div class="grid">
+  <div class="card"><svg class="ic"><use href="#i-clock"/></svg><div><b data-ar="ساعات العمل">Opening hours</b><span data-ar="السبت إلى الخميس، ٨ صباحاً – ٨ مساءً">Monday to Saturday, 8 AM to 8 PM</span></div></div>
+  <div class="card"><svg class="ic"><use href="#i-doc"/></svg><div><b data-ar="مدة التنفيذ">Turnaround</b><span class="ph">[Your turnaround time]</span></div></div>
+  <div class="card"><svg class="ic"><use href="#i-phone"/></svg><div><b data-ar="اتصل بنا">Call us</b><span>052 796 9655</span></div></div>
+</div></div></div>
+
+<!-- services -->
+<section id="services">
+  <div class="wrap">
+    <span class="tag" data-ar="خدماتنا">Our services</span>
+    <h2 data-ar="ما نقدمه">What we offer</h2>
+    <p class="sub" data-ar="اختر خدمة لتعرف ما تشمله والمستندات المطلوبة وطريقة الطلب.">Choose a service to see what it covers, the documents to bring and how to request it.</p>
+    <div class="cards" id="cards"></div>
+  </div>
+</section>
+
+<!-- contact -->
+<section id="contact" class="tint">
+  <div class="wrap contact">
+    <div>
+      <span class="tag" data-ar="اتصل بنا">Contact us</span>
+      <h2 data-ar="اتصل أو راسلنا أو قم بزيارتنا">Call, message or visit us</h2>
+      <div class="clist">
+        <div class="crow"><span class="b"><svg class="ic"><use href="#i-phone"/></svg></span><div><b data-ar="اتصال">Call</b><span>052 796 9655</span></div></div>
+        <div class="crow"><span class="b"><svg class="ic"><use href="#i-phone"/></svg></span><div><b data-ar="اتصال">Call</b><span>058 681 5484</span></div></div>
+        <div class="crow"><span class="b"><svg class="ic"><use href="#i-phone"/></svg></span><div><b data-ar="اتصال">Call</b><span>058 681 5486</span></div></div>
+        <a class="crow" href="https://wa.me/971527969655" target="_blank" rel="noopener"><span class="b g"><svg class="ic"><use href="#i-wa"/></svg></span><div><b>WhatsApp</b><span data-ar="رسالة جاهزة بضغطة واحدة">Message ready in one tap</span></div></a>
+        <div class="crow"><span class="b"><svg class="ic"><use href="#i-mail"/></svg></span><div><b data-ar="البريد الإلكتروني">Email</b><span>info@wadialhuroof.com</span></div></div>
+        <div class="crow"><span class="b"><svg class="ic"><use href="#i-clock"/></svg></span><div><b data-ar="ساعات العمل">Hours</b><span data-ar="السبت إلى الخميس، ٨ صباحاً – ٨ مساءً">Monday to Saturday, 8 AM to 8 PM</span></div></div>
+      </div>
+      <div class="map">
+        <span class="pin"><svg class="ic"><use href="#i-pin"/></svg></span>
+        <div class="mapcard">
+          <b data-ar="المكتب">Office</b>
+          <span data-ar="مكتب رقم 118، الطابق الأول، مبنى الهلال بنك، مركز راغ للأعمال، بالقرب من برج التوأم، القصيص، دبي، الإمارات">Office No 118, First Floor, Al Hilal Bank Building, RAG Business Center, Near to Al Twar center, Al Qusais, Dubai, UAE</span><br>
+          <a class="btn btn-rose btn-sm" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Al+Hilal+Bank+Building+Al+Qusais+Dubai"><svg class="ic"><use href="#i-nav"/></svg><span data-ar="احصل على الاتجاهات">Get directions</span></a>
+        </div>
+      </div>
+    </div>
+
+    <form class="form" id="quote" novalidate>
+      <h3 data-ar="اطلب عرض سعر">Request a quote</h3>
+      <p data-ar="أرسل طلباً قصيراً وسنتواصل معك لتأكيد التفاصيل. يمكنك إرسال مستنداتك عبر واتساب أو البريد الإلكتروني بعد ردنا.">Send a short request and we will contact you to confirm the details. You can send your documents on WhatsApp or by email after we reply.</p>
+      <div class="fg">
+        <label class="fld"><span data-ar="الاسم الكامل">Full name</span><input name="name" required></label>
+        <label class="fld"><span data-ar="الهاتف أو واتساب">Phone or WhatsApp</span><input name="phone" type="tel" required placeholder="Number with country code" data-ar-ph="الرقم مع رمز الدولة"></label>
+        <label class="fld"><span><span data-ar="البريد الإلكتروني">Email</span> <small data-ar="(اختياري)">(optional)</small></span><input name="email" type="email"></label>
+        <label class="fld"><span data-ar="الخدمة">Service</span>
+          <select name="service" id="svcSelect"><option value="" data-ar="اختر خدمة">Choose a service</option></select>
+        </label>
+        <label class="fld full"><span><span data-ar="رسالتك">Your message</span> <small data-ar="(اختياري)">(optional)</small></span><textarea name="msg" placeholder="For example: marriage certificate, Arabic to English" data-ar-ph="مثال: عقد زواج، من العربية إلى الإنجليزية"></textarea></label>
+        <label class="consent"><input type="checkbox" required><span data-ar="أوافق على أن تتواصل معي شركة وادي الحروف للترجمة بخصوص هذا الطلب.">I agree that Wadi Alhuroof Translation Service may contact me about this request.</span></label>
+        <a href="#privacy" style="grid-column:1/-1;font-size:13px;font-weight:600;color:var(--plum);text-decoration:underline" data-ar="الخصوصية">Privacy</a>
+        <button class="btn btn-rose full" style="grid-column:1/-1;justify-content:center;border-radius:8px" type="submit"><svg class="ic"><use href="#i-send"/></svg><span data-ar="إرسال الطلب">Send request</span></button>
+      </div>
+      <p class="note" data-ar="نسخة تجريبية: هذا النموذج لا يرسل شيئاً.">Concept preview: this form sends nothing.</p>
+      <div class="ok" id="ok" data-ar="هذه نسخة تجريبية، لم يتم إرسال أي شيء. يمكنك مراسلتنا عبر واتساب الآن.">This is a concept preview, nothing was sent. You can message us on WhatsApp instead.</div>
+    </form>
+  </div>
+</section>
+
+<!-- faq -->
+<section id="faq">
+  <div class="wrap">
+    <span class="tag" data-ar="الأسئلة">Questions</span>
+    <h2 data-ar="أسئلة قبل أن تبدأ">Questions before you start</h2>
+    <div class="faq" id="faqList"></div>
+  </div>
+</section>
+
+<!-- privacy -->
+<section id="privacy" class="tint">
+  <div class="wrap">
+    <span class="tag" data-ar="الخصوصية">Privacy</span>
+    <h2 data-ar="الخصوصية وملفات تعريف الارتباط">Privacy and cookies</h2>
+    <div class="pcards">
+      <div class="pc"><h3><svg class="ic"><use href="#i-lock"/></svg><span data-ar="إشعار الخصوصية">Privacy notice</span></h3>
+        <p data-ar="يوضح هذا الإشعار كيف نستخدم الاسم ورقم الهاتف والبريد الإلكتروني والمستندات، ولماذا ومتى نحذفها.">This notice explains how we use the name, phone number, email and documents you send them, why, and when we delete them.</p>
+        <span class="ph">[Privacy notice text: from your existing privacy page]</span></div>
+      <div class="pc"><h3><svg class="ic"><use href="#i-cookie"/></svg><span data-ar="إشعار ملفات الارتباط">Cookie notice</span></h3>
+        <p data-ar="في الموقع الفعلي، يتيح هذا الإشعار للزوار قبول أدوات جوجل أو رفضها. هذه الصفحة التجريبية لا تخزن شيئاً.">On the live site, this notice lets visitors accept or decline the Google tools. This concept page stores nothing.</p></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <a href="#" class="logo"><span class="mark" style="color:var(--plum)">و</span><span style="color:#fff"><b>WADI ALHUROOF</b><small>Translation Services</small></span></a>
+        <p data-ar="ترجمة قانونية وتصديق وتأشيرات ووكالات وعقود تأسيس وخدمات تأسيس الشركات في دبي.">Legal translation, attestation, visa, power of attorney and memorandum of association services in Dubai.</p>
+        <a class="btn btn-line btn-sm" style="margin-top:18px" href="#contact"><svg class="ic"><use href="#i-doc"/></svg><span data-ar="اطلب عرض سعر">Request a quote</span></a>
+      </div>
+      <div><h4 data-ar="خدماتنا">Our services</h4><ul id="fsvc"></ul></div>
+      <div><h4 data-ar="روابط سريعة">Quick links</h4><ul>
+        <li><a href="#top" data-ar="الرئيسية">Home</a></li><li><a href="#services" data-ar="الخدمات">Services</a></li>
+        <li><a href="#contact" data-ar="اتصل بنا">Contact Us</a></li><li><a href="#faq" data-ar="الأسئلة">Questions</a></li>
+        <li><a href="#privacy" data-ar="الخصوصية">Privacy</a></li><li><a href="#privacy" data-ar="إشعار ملفات الارتباط">Cookie notice</a></li></ul></div>
+      <div><h4 data-ar="اتصل بنا">Contact us</h4>
+        <div class="ci"><svg class="ic"><use href="#i-pin"/></svg><span data-ar="مكتب رقم 118، الطابق الأول، مبنى الهلال بنك، مركز راغ للأعمال، بالقرب من برج التوأم، القصيص، دبي، الإمارات">Office No 118, First Floor, Al Hilal Bank Building, RAG Business Center, Near to Al Twar center, Al Qusais, Dubai, UAE</span></div>
+        <div class="ci"><svg class="ic"><use href="#i-phone"/></svg>052 796 9655</div>
+        <div class="ci"><svg class="ic"><use href="#i-phone"/></svg>058 681 5484</div>
+        <div class="ci"><svg class="ic"><use href="#i-phone"/></svg>058 681 5486</div>
+        <div class="ci"><svg class="ic"><use href="#i-mail"/></svg>info@wadialhuroof.com</div>
+        <div class="ci"><svg class="ic"><use href="#i-clock"/></svg><span data-ar="السبت إلى الخميس، ٨ صباحاً – ٨ مساءً">Monday to Saturday, 8 AM to 8 PM</span></div>
+      </div>
+    </div>
+    <div class="legal">
+      <div>© 2026 Wadi Alhuroof Translation Service. <a href="#privacy" style="text-decoration:underline" data-ar="الخصوصية">Privacy</a> <span class="ph">[Trade licence number]</span></div>
+      <div>Concept by SoftGlaze for Wadi Alhuroof Translation Service, not affiliated, for discussion only.</div>
+    </div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/971527969655" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="ic"><use href="#i-wa"/></svg></a>
+
+<div class="cookie" id="cookie">
+  <b><svg class="ic"><use href="#i-cookie"/></svg><span data-ar="ملفات الارتباط">Cookies</span></b>
+  <p data-ar="هذا مفهوم تصميمي: لا يتم تخزين أي شيء على هذه الصفحة. أي زر يغلق هذا الإشعار فقط.">This is a design concept: nothing is stored on this page. Either button only closes this note.</p>
+  <div class="row"><button class="btn btn-dark" data-close data-ar="قبول">Accept</button><button class="btn btn-line" data-close data-ar="رفض">Decline</button></div>
+</div>
+
+<script>
+const SERVICES=[
+ {k:'legal',i:'i-lang',en:'Legal Translation Services Dubai',ar:'خدمات الترجمة القانونية في دبي',
+  d_en:'Legal and certified translation for personal and business documents.',d_ar:'ترجمة قانونية ومعتمدة للمستندات الشخصية ومستندات الأعمال.',
+  c_en:'Contracts, court papers, certificates, agreements and other legal or personal documents.',c_ar:'العقود والأوراق القضائية والشهادات والاتفاقيات وغيرها من المستندات القانونية والشخصية.'},
+ {k:'attest',i:'i-scale',en:'Certificate Attestation Service Dubai',ar:'خدمة تصديق الشهادات في دبي',
+  d_en:'Attestation of certificates and documents for use in the UAE.',d_ar:'تصديق الشهادات والمستندات لاستخدامها في الإمارات.',
+  c_en:'Educational, personal and commercial certificates that need attestation for official use.',c_ar:'الشهادات التعليمية والشخصية والتجارية التي تحتاج إلى تصديق للاستخدام الرسمي.'},
+ {k:'visa',i:'i-id',en:'Visa Service Dubai',ar:'خدمة التأشيرات في دبي',
+  d_en:'Help with visa applications and their documents.',d_ar:'مساعدة في طلبات التأشيرة ومستنداتها.',
+  c_en:'Preparing and translating the documents that go with visa applications.',c_ar:'إعداد وترجمة المستندات المرافقة لطلبات التأشيرة.'},
+ {k:'poa',i:'i-doc',en:'Power of Attorney Services Dubai',ar:'خدمات الوكالات القانونية في دبي',
+  d_en:'Drafting and translation of powers of attorney.',d_ar:'صياغة وترجمة الوكالات القانونية.',
+  c_en:'Drafting a power of attorney and translating it between Arabic and English.',c_ar:'صياغة الوكالة القانونية وترجمتها بين العربية والإنجليزية.'},
+ {k:'moa',i:'i-bldg',en:'Memorandum of Association Dubai',ar:'عقد التأسيس في دبي',
+  d_en:'Drafting and translation of the memorandum of association for companies.',d_ar:'صياغة وترجمة عقد التأسيس للشركات.',
+  c_en:'Memorandum and articles of association, amendments and related company documents.',c_ar:'عقد التأسيس والنظام الأساسي والتعديلات ومستندات الشركات ذات الصلة.'},
+ {k:'company',i:'i-brief',en:'Company Formation Dubai',ar:'تأسيس الشركات في دبي',
+  d_en:'Help setting up your company in Dubai and its documents.',d_ar:'مساعدة في تأسيس شركتك في دبي ومستنداتها.',
+  c_en:'Documents and translation support for setting up a company in Dubai.',c_ar:'المستندات ودعم الترجمة لتأسيس شركة في دبي.'},
+ {k:'arabic',i:'i-globe',en:'Arabic Translation',ar:'الترجمة إلى العربية',
+  d_en:'Translation of your documents into Arabic.',d_ar:'ترجمة مستنداتك إلى اللغة العربية.',
+  c_en:'Personal, legal and business documents translated into Arabic.',c_ar:'مستندات شخصية وقانونية وتجارية مترجمة إلى العربية.'},
+ {k:'en2ar',i:'i-cap',en:'English to Arabic Translation',ar:'الترجمة من الإنجليزية إلى العربية',
+  d_en:'Translation of documents from English into Arabic.',d_ar:'ترجمة المستندات من الإنجليزية إلى العربية.',
+  c_en:'Any document written in English that you need in Arabic.',c_ar:'أي مستند مكتوب بالإنجليزية وتحتاجه بالعربية.'}
+];
+const FAQ=[
+ {q:['Which services do you offer?','ما هي الخدمات التي تقدمونها؟'],a:['Legal and certified translation, certificate attestation, visa service, power of attorney, memorandum of association, company formation, and Arabic and English to Arabic translation.','ترجمة قانونية ومعتمدة، تصديق الشهادات، خدمة التأشيرات، الوكالات القانونية، عقد التأسيس، تأسيس الشركات، والترجمة إلى العربية ومن الإنجليزية إلى العربية.']},
+ {q:['How long does a translation take?','كم تستغرق الترجمة؟'],a:['[Your turnaround time]','[مدة التنفيذ]']},
+ {q:['Where is the office and what are your hours?','أين المكتب وما هي ساعات العمل؟'],a:['Office No 118, First Floor, Al Hilal Bank Building, RAG Business Center, Near to Al Twar center, Al Qusais, Dubai. Monday to Saturday, 8 AM to 8 PM.','مكتب رقم 118، الطابق الأول، مبنى الهلال بنك، مركز راغ للأعمال، بالقرب من برج التوأم، القصيص، دبي. السبت إلى الخميس، ٨ صباحاً – ٨ مساءً.']},
+ {q:['How do I send my documents?','كيف أرسل مستنداتي؟'],a:['Send them on WhatsApp, by email to info@wadialhuroof.com, or bring them to our office in Al Qusais.','أرسلها عبر واتساب أو البريد info@wadialhuroof.com أو أحضرها إلى مكتبنا في القصيص.']},
+ {q:['What are the fees?','ما هي الرسوم؟'],a:['[Your fee information]. Send us your document and we will confirm the price before we start.','[معلومات الرسوم]. أرسل لنا مستندك وسنؤكد السعر قبل أن نبدأ.']}
+];
+const $=s=>document.querySelector(s);
+const cards=$('#cards'),sel=$('#svcSelect'),fsvc=$('#fsvc'),faq=$('#faqList');
+SERVICES.forEach(s=>{
+  cards.insertAdjacentHTML('beforeend',`<article class="svc"><div class="ico"><svg class="ic" style="width:22px;height:22px"><use href="#${s.i}"/></svg></div>
+   <h3 data-ar="${s.ar}">${s.en}</h3><p data-ar="${s.d_ar}">${s.d_en}</p>
+   <button class="tog" type="button" aria-expanded="false"><span data-ar="عرض التفاصيل">View details</span><svg class="ic"><use href="#i-down"/></svg></button>
+   <div class="det"><b data-ar="ما تشمله">What it covers</b><span data-ar="${s.c_ar}">${s.c_en}</span>
+   <b data-ar="ما تحضره">What to bring</b><span class="ph">[Documents list]</span><br>
+   <a href="#contact" data-svc="${s.k}" data-ar="اطلب هذه الخدمة">Request this service →</a></div></article>`);
+  sel.insertAdjacentHTML('beforeend',`<option value="${s.k}" data-ar="${s.ar}">${s.en}</option>`);
+  fsvc.insertAdjacentHTML('beforeend',`<li><a href="#services" data-ar="${s.ar}">${s.en}</a></li>`);
+});
+FAQ.forEach(f=>faq.insertAdjacentHTML('beforeend',`<div class="q"><button type="button" aria-expanded="false"><span data-ar="${f.q[1]}">${f.q[0]}</span><svg class="ic"><use href="#i-down"/></svg></button><div class="a" data-ar="${f.a[1]}">${f.a[0]}</div></div>`));
+
+cards.addEventListener('click',e=>{
+  const t=e.target.closest('.tog');
+  if(t){const c=t.closest('.svc');c.classList.toggle('open');t.setAttribute('aria-expanded',c.classList.contains('open'));}
+  const r=e.target.closest('[data-svc]');if(r)sel.value=r.dataset.svc;
+});
+faq.addEventListener('click',e=>{const b=e.target.closest('button');if(b){const q=b.parentElement;q.classList.toggle('open');b.setAttribute('aria-expanded',q.classList.contains('open'));}});
+document.querySelectorAll('[data-close]').forEach(b=>b.onclick=()=>$('#cookie').style.display='none');
+$('#burger').onclick=()=>$('#nav').classList.toggle('show');
+$('#nav').addEventListener('click',()=>$('#nav').classList.remove('show'));
+$('#quote').addEventListener('submit',e=>{e.preventDefault();$('#ok').style.display='block';});
+
+// language toggle (EN / AR with RTL)
+let lang='en';
+function setLang(l){
+  lang=l;
+  document.documentElement.lang=l;document.documentElement.dir=l==='ar'?'rtl':'ltr';
+  document.querySelectorAll('[data-ar]').forEach(el=>{
+    if(!el.hasAttribute('data-en'))el.setAttribute('data-en',el.textContent);
+    el.textContent=l==='ar'?el.getAttribute('data-ar'):el.getAttribute('data-en');
+  });
+  document.querySelectorAll('[data-ar-ph]').forEach(el=>{
+    if(!el.hasAttribute('data-en-ph'))el.setAttribute('data-en-ph',el.placeholder);
+    el.placeholder=l==='ar'?el.getAttribute('data-ar-ph'):el.getAttribute('data-en-ph');
+  });
+  $('#langOther').textContent=l==='ar'?'English':'العربية';
+  $('#langCur').textContent=l==='ar'?'ع':'EN';
+}
+$('#langBtn').onclick=()=>setLang(lang==='en'?'ar':'en');
+</script>
+</body>
+</html>
